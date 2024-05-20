@@ -1,8 +1,7 @@
-# S3-Personal-Uploader
-Repo to create personal S3 backup system
+# S3-static-web
+Repo to store personal static page
 
 ## Usage
 ```
-# Upload specific folder
-python upload.py <FULL FOLDER PATH>
+add index.html and error pages
 ```
