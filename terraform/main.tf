@@ -8,7 +8,7 @@ terraform {
 
   required_version = ">= 1.2.0"
   backend "s3" {
-    bucket = "s3-personal-uploader-state"
+    bucket = "s3-static-site-tf-state"
     key    = "prod/terraform.tfstate"
     region = "us-east-1"
   }
